@@ -262,12 +262,7 @@
   color: #ffffff;
 }
 
-.aboutcreatAR {
-  font-weight: 800;
-  font-size: 60px;
-  line-height: 70px;
-  color: #2e3555;
-}
+
 
 .light-text-color {
   color: #869ee1;
@@ -476,13 +471,7 @@
   color: #FFDC5F;
 }
 
-.stephead {
-  font-weight: 700;
-  font-size: 27px;
-  line-height: 40px;
-  letter-spacing: 0.1em;
-  color: #FFFFFF;
-}
+
 
 .stepdescrip {
   font-weight: 500;
@@ -516,20 +505,7 @@
   border-radius: 5px;
 }
 
-.arbenefithead {
-  font-weight: 800;
-  font-size: 26px;
-  line-height: 31px;
-  color: #2E3555;
-}
 
-.arbenefitsub {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-  color: #2E3555;
-}
 
 .benefiticon {
   border: 7px solid white;
@@ -1131,22 +1107,124 @@
   color: #FFFFFF;
 }
 
-#spin:after {
-  content:"";
-  animation: spin 4s linear infinite;
-  -webkit-animation: spin 4s linear infinite;
-}
-@keyframes spin {
-  0% { content:"AR Experiences for Brands"; } 
-  100% { content: "The best AR Creatars"; }
+.spin1::before {
+  content: "AR Experiences for Brands";
+  animation: animate1 infinite 8s;
+
 }
 
-#spintwo:after {
-  content:"";
-  animation: spin 4s linear infinite;
-  -webkit-animation: spin 4s linear infinite;
+.spin2::before {
+  content: "Build AR Effects for your favourite Brands";
+  animation: animate2 infinite 8s;
+
 }
-@keyframes spintwo {
-  0% { content:"Build AR Effects for your favourite Brands"; } 
-  50% { content: "Search for the best creatars for your next advertising campaign"; }
+
+@keyframes animate1 {
+
+  0% {
+    content: "The best AR Creatars";
+  }
+
+  50% {
+    content: "AR Experiences for Brands";
+  }
+
+  75% {
+    content: "The best AR Creatars";
+  }
+}
+
+@keyframes animate2 {
+
+  0% {
+    content: "Search for the best creatars for your next";
+  }
+
+  50% {
+    content: "Build AR Effects for your favourite Brands";
+  }
+
+  75% {
+    content: "Search for the best creatars for your next";
+  }
+}
+
+.heightcol {
+  height: 100%;
+}
+
+.testimonials {
+  position: relative; border-radius: 8px;
+}
+
+.inner-testimonials .owl-dots {
+  display: none; border-radius: 8px;
+}
+
+.main-reviewimage {
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+  background: #fff;
+  
+}
+
+.main-reviewimage img {
+  opacity: 0.3;
+  border-radius: 8px;
+}
+
+#slide-testimonal .active.center .main-reviewimage img {
+  opacity: 1;
+}
+
+.test_img { border-radius: 8px;
+  position: relative;
+  opacity: 1;
+  -webkit-transition: .4s ease all;
+  transition: .4s ease all;
+  margin: 0 -48px;
+}
+
+.inner-testimonials {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#slide-testimonal .center .test_img:before {
+  content: none;
+  transition: 0.7s ease-in-out;
+}
+
+.test_img img {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custome_slide.owl-carousel .owl-item.active.center {
+  transform: scale(1.3);
+  margin-top: 0 !important;
+  position: relative;
+  z-index: 999;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.custome_slide.owl-carousel .owl-item {
+  transform: scale(0.9);
+  transition: all 0.5s;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+
+@media only screen and (max-width:767px) {
+  .main-reviewimage {
+     margin: 0 auto;
+    display: block;
+  }
+
 }

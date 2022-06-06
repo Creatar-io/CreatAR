@@ -268,13 +268,7 @@
   color: #869ee1;
 }
 
-.aboutdescrip {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.1em;
-  color: #2e3555;
-}
+
 
 .trustedhead {
   font-weight: 800;
@@ -1158,14 +1152,13 @@
 }
 
 .inner-testimonials .owl-dots {
-  display: none; border-radius: 8px;
+  display: none; 
 }
 
 .main-reviewimage {
   border-radius: 8px;
   height: auto;
   width: 100%;
-  background: #fff;
   
 }
 

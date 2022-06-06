@@ -1,4 +1,11 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .aboutdescrip {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        color: #2e3555;
+      }
     .stephead {
         font-weight: 700;
         font-size: 22px;
@@ -88,7 +95,7 @@
     }
 
     .v-effect-link li {
-        display: inline-block;
+        display: inline-table;
         width: 48%;
 
     }
@@ -168,7 +175,7 @@
 
 
     .brandlink li {
-        display: inline-block;
+        display: inline-table;
         width: 48%;
 
     }
@@ -185,7 +192,7 @@
     .brandlink li::before {
         content: "0"counter(steps) "-";
         height: 1.2em;
-        display: inline-grid;
+        display:inline-table;
         place-items: center;
         font-weight: 500;
         font-size: 15px;
@@ -212,6 +219,13 @@
 }
 
 @media only screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+    .aboutdescrip {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        color: #2e3555;
+      }
     .stephead {
         font-weight: 700;
         font-size: 27px;
@@ -299,7 +313,7 @@
     }
 
     .v-effect-link li {
-        display: inline-block;
+        display: inline-table;
         width: 49%;
 
     }
@@ -379,7 +393,7 @@
 
 
     .brandlink li {
-        display: inline-block;
+        display: inline-table;
         width: 49%;
 
     }
@@ -422,6 +436,13 @@
 }
 
 @media only screen and (min-width: 1224px) {
+    .aboutdescrip {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        color: #2e3555;
+      }
     .stephead {
         font-weight: 700;
         font-size: 27px;
@@ -509,7 +530,7 @@
     }
 
     .v-effect-link li {
-        display: inline-block;
+        display: inline-table;
         width: 24%;
 
     }
@@ -589,7 +610,7 @@
 
 
     .brandlink li {
-        display: inline-block;
+        display: inline-table;
         width: 24%;
 
     }
